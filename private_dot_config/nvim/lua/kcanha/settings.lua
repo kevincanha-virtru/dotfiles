@@ -1,0 +1,16 @@
+vim.o.relativenumber = true
+vim.o.number = true -- Print the line number in front of each line
+vim.o.clipboard = "unnamedplus" -- uses the clipboard register for all operations except yank.
+vim.o.syntax = "on" -- When this option is set, the syntax with this name is loaded.
+vim.o.cursorline = true -- Highlight the screen line of the cursor with CursorLine.
+vim.o.expandtab = true -- In Insert mode: Use the appropriate number of spaces to insert a <Tab>.
+vim.o.encoding = "UTF-8" -- Sets the character encoding used inside Vim.
+vim.o.ruler = true -- Show the line and column number of the cursor position, separated by a comma.
+vim.o.mouse = "a" -- Enable the use of the mouse. "a" you can use on all modes
+vim.o.title = true -- When on, the title of the window will be set to the value of 'titlestring'
+vim.o.wildmenu = true -- When 'wildmenu' is on, command-line completion operates in an enhanced mode.
+vim.o.showcmd = true -- Show (partial) command in the last line of the screen. Set this option off if your terminal is slow.
+vim.o.inccommand = "split" -- When nonempty, shows the effects of :substitute, :smagic, :snomagic and user commands with the :command-preview flag as you type.
+vim.o.splitright = true
+vim.o.splitbelow = true -- When on, splitting a window will put the new window below the current one
+vim.o.termguicolors = true
