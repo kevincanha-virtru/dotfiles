@@ -1,4 +1,4 @@
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/kcanha/dotfiles/main/bootstrap.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/kevincanha-virtru/dotfiles/main/bootstrap.sh)"
 
 type o in the prompt
 
